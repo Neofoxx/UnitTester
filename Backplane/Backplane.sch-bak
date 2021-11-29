@@ -14,48 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Kicad_Library:86093488314745V1LF U1
-U 1 1 61A3E915
-P 850 1600
-F 0 "U1" H 908 2575 50  0000 C CNN
-F 1 "86093488314745V1LF" V 850 1600 50  0000 C CNN
-F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 900 2350 50  0001 C CNN
-F 3 "" H 900 2350 50  0001 C CNN
-F 4 "Amphenol ICC" H 900 2650 50  0001 C CNN "Manufacturer"
-F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 900 2850 50  0001 C CNN "Link"
-F 6 "649-869348314745V1LF" H 900 2750 50  0001 C CNN "Mouser"
-	1    850  1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kicad_Library:86093488314745V1LF U1
-U 2 1 61A407BE
-P 1750 1600
-F 0 "U1" H 1808 2483 50  0000 C CNN
-F 1 "86093488314745V1LF" H 1808 2484 50  0001 C CNN
-F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 1800 2350 50  0001 C CNN
-F 3 "" H 1800 2350 50  0001 C CNN
-F 4 "Amphenol ICC" H 1800 2650 50  0001 C CNN "Manufacturer"
-F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 1800 2850 50  0001 C CNN "Link"
-F 6 "649-869348314745V1LF" H 1800 2750 50  0001 C CNN "Mouser"
-	2    1750 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kicad_Library:86093488314745V1LF U1
-U 3 1 61A4298B
-P 2700 1600
-F 0 "U1" H 2758 2483 50  0000 C CNN
-F 1 "86093488314745V1LF" H 2758 2484 50  0001 C CNN
-F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 2750 2350 50  0001 C CNN
-F 3 "" H 2750 2350 50  0001 C CNN
-F 4 "Amphenol ICC" H 2750 2650 50  0001 C CNN "Manufacturer"
-F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 2750 2850 50  0001 C CNN "Link"
-F 6 "649-869348314745V1LF" H 2750 2750 50  0001 C CNN "Mouser"
-	3    2700 1600
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 61A4C7E3
 P 1550 900
@@ -119,13 +77,13 @@ Wire Wire Line
 Wire Wire Line
 	1000 1950 1450 1950
 Wire Wire Line
-	1000 2050 1450 2050
+	2850 2050 3300 2050
 Wire Wire Line
-	1000 2150 1450 2150
+	2850 2150 3300 2150
 Wire Wire Line
-	1000 2250 1450 2250
+	2850 2250 3300 2250
 Wire Wire Line
-	1000 2350 1450 2350
+	2850 2350 3300 2350
 Text Label 1450 1150 2    50   ~ 0
 TDI
 Text Label 1450 1250 2    50   ~ 0
@@ -144,11 +102,11 @@ Text Label 1450 1850 2    50   ~ 0
 TARGET_RX
 Text Label 1450 1950 2    50   ~ 0
 TARGET_TX
-Text Label 1450 2050 2    50   ~ 0
+Text Label 3300 2050 2    50   ~ 0
 EN_PWR_1
-Text Label 1450 2150 2    50   ~ 0
+Text Label 3300 2150 2    50   ~ 0
 EN_ICSP_1
-Text Label 1450 2250 2    50   ~ 0
+Text Label 3300 2250 2    50   ~ 0
 EN_JTAG_1
 $Comp
 L power:GND #PWR0104
@@ -295,13 +253,13 @@ Wire Wire Line
 Wire Wire Line
 	2850 1950 3300 1950
 Wire Wire Line
-	2850 2050 3300 2050
+	1000 2050 1450 2050
 Wire Wire Line
-	2850 2150 3300 2150
+	1000 2150 1450 2150
 Wire Wire Line
-	2850 2250 3300 2250
+	1000 2250 1450 2250
 Wire Wire Line
-	2850 2350 3300 2350
+	1000 2350 1450 2350
 Text Label 3300 1150 2    50   ~ 0
 TDI
 Text Label 3300 1250 2    50   ~ 0
@@ -320,13 +278,13 @@ Text Label 3300 1850 2    50   ~ 0
 TARGET_RX
 Text Label 3300 1950 2    50   ~ 0
 TARGET_TX
-Text Label 3300 2050 2    50   ~ 0
+Text Label 1450 2050 2    50   ~ 0
 EN_PWR_2
-Text Label 3300 2150 2    50   ~ 0
+Text Label 1450 2150 2    50   ~ 0
 EN_ICSP_2
-Text Label 3300 2250 2    50   ~ 0
+Text Label 1450 2250 2    50   ~ 0
 EN_JTAG_2
-Text Label 3300 2350 2    50   ~ 0
+Text Label 1450 2350 2    50   ~ 0
 SPARE_2
 Wire Notes Line
 	650  550  3600 550 
@@ -340,7 +298,7 @@ $Comp
 L Kicad_Library:86093488314745V1LF U2
 U 1 1 61AAE1FD
 P 3900 1600
-F 0 "U2" H 3958 2575 50  0000 C CNN
+F 0 "U2" H 3900 700 50  0000 C CNN
 F 1 "86093488314745V1LF" V 3900 1600 50  0000 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 3950 2350 50  0001 C CNN
 F 3 "" H 3950 2350 50  0001 C CNN
@@ -348,13 +306,13 @@ F 4 "Amphenol ICC" H 3950 2650 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 3950 2850 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 3950 2750 50  0001 C CNN "Mouser"
 	1    3900 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U2
 U 2 1 61AAE206
 P 4800 1600
-F 0 "U2" H 4858 2483 50  0000 C CNN
+F 0 "U2" H 4800 700 50  0000 C CNN
 F 1 "86093488314745V1LF" H 4858 2484 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 4850 2350 50  0001 C CNN
 F 3 "" H 4850 2350 50  0001 C CNN
@@ -362,13 +320,13 @@ F 4 "Amphenol ICC" H 4850 2650 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 4850 2850 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 4850 2750 50  0001 C CNN "Mouser"
 	2    4800 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U2
 U 3 1 61AAE20F
 P 5750 1600
-F 0 "U2" H 5808 2483 50  0000 C CNN
+F 0 "U2" H 5750 700 50  0000 C CNN
 F 1 "86093488314745V1LF" H 5808 2484 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 5800 2350 50  0001 C CNN
 F 3 "" H 5800 2350 50  0001 C CNN
@@ -376,7 +334,7 @@ F 4 "Amphenol ICC" H 5800 2650 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 5800 2850 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 5800 2750 50  0001 C CNN "Mouser"
 	3    5750 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0110
@@ -442,13 +400,13 @@ Wire Wire Line
 Wire Wire Line
 	4050 1950 4500 1950
 Wire Wire Line
-	4050 2050 4500 2050
+	5900 2050 6350 2050
 Wire Wire Line
-	4050 2150 4500 2150
+	5900 2150 6350 2150
 Wire Wire Line
-	4050 2250 4500 2250
+	5900 2250 6350 2250
 Wire Wire Line
-	4050 2350 4500 2350
+	5900 2350 6350 2350
 Text Label 4500 1150 2    50   ~ 0
 TDI
 Text Label 4500 1250 2    50   ~ 0
@@ -467,13 +425,13 @@ Text Label 4500 1850 2    50   ~ 0
 TARGET_RX
 Text Label 4500 1950 2    50   ~ 0
 TARGET_TX
-Text Label 4500 2050 2    50   ~ 0
+Text Label 6350 2050 2    50   ~ 0
 EN_PWR_3
-Text Label 4500 2150 2    50   ~ 0
+Text Label 6350 2150 2    50   ~ 0
 EN_ICSP_3
-Text Label 4500 2250 2    50   ~ 0
+Text Label 6350 2250 2    50   ~ 0
 EN_JTAG_3
-Text Label 4500 2350 2    50   ~ 0
+Text Label 6350 2350 2    50   ~ 0
 SPARE_3
 $Comp
 L power:GND #PWR0113
@@ -620,13 +578,13 @@ Wire Wire Line
 Wire Wire Line
 	5900 1950 6350 1950
 Wire Wire Line
-	5900 2050 6350 2050
+	4050 2050 4500 2050
 Wire Wire Line
-	5900 2150 6350 2150
+	4050 2150 4500 2150
 Wire Wire Line
-	5900 2250 6350 2250
+	4050 2250 4500 2250
 Wire Wire Line
-	5900 2350 6350 2350
+	4050 2350 4500 2350
 Text Label 6350 1150 2    50   ~ 0
 TDI
 Text Label 6350 1250 2    50   ~ 0
@@ -645,13 +603,13 @@ Text Label 6350 1850 2    50   ~ 0
 TARGET_RX
 Text Label 6350 1950 2    50   ~ 0
 TARGET_TX
-Text Label 6350 2050 2    50   ~ 0
+Text Label 4500 2050 2    50   ~ 0
 EN_PWR_4
-Text Label 6350 2150 2    50   ~ 0
+Text Label 4500 2150 2    50   ~ 0
 EN_ICSP_4
-Text Label 6350 2250 2    50   ~ 0
+Text Label 4500 2250 2    50   ~ 0
 EN_JTAG_4
-Text Label 6350 2350 2    50   ~ 0
+Text Label 4500 2350 2    50   ~ 0
 SPARE_4
 Wire Notes Line
 	3700 550  6650 550 
@@ -665,7 +623,7 @@ $Comp
 L Kicad_Library:86093488314745V1LF U3
 U 1 1 61AC4158
 P 6950 1600
-F 0 "U3" H 7008 2575 50  0000 C CNN
+F 0 "U3" H 6950 700 50  0000 C CNN
 F 1 "86093488314745V1LF" V 6950 1600 50  0000 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 7000 2350 50  0001 C CNN
 F 3 "" H 7000 2350 50  0001 C CNN
@@ -673,13 +631,13 @@ F 4 "Amphenol ICC" H 7000 2650 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 7000 2850 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 7000 2750 50  0001 C CNN "Mouser"
 	1    6950 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U3
 U 2 1 61AC4161
 P 7850 1600
-F 0 "U3" H 7908 2483 50  0000 C CNN
+F 0 "U3" H 7850 700 50  0000 C CNN
 F 1 "86093488314745V1LF" H 7908 2484 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 7900 2350 50  0001 C CNN
 F 3 "" H 7900 2350 50  0001 C CNN
@@ -687,13 +645,13 @@ F 4 "Amphenol ICC" H 7900 2650 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 7900 2850 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 7900 2750 50  0001 C CNN "Mouser"
 	2    7850 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U3
 U 3 1 61AC416A
 P 8800 1600
-F 0 "U3" H 8858 2483 50  0000 C CNN
+F 0 "U3" H 8800 700 50  0000 C CNN
 F 1 "86093488314745V1LF" H 8858 2484 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 8850 2350 50  0001 C CNN
 F 3 "" H 8850 2350 50  0001 C CNN
@@ -701,7 +659,7 @@ F 4 "Amphenol ICC" H 8850 2650 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 8850 2850 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 8850 2750 50  0001 C CNN "Mouser"
 	3    8800 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR03
@@ -767,13 +725,13 @@ Wire Wire Line
 Wire Wire Line
 	7100 1950 7550 1950
 Wire Wire Line
-	7100 2050 7550 2050
+	8950 2050 9400 2050
 Wire Wire Line
-	7100 2150 7550 2150
+	8950 2150 9400 2150
 Wire Wire Line
-	7100 2250 7550 2250
+	8950 2250 9400 2250
 Wire Wire Line
-	7100 2350 7550 2350
+	8950 2350 9400 2350
 Text Label 7550 1150 2    50   ~ 0
 TDI
 Text Label 7550 1250 2    50   ~ 0
@@ -792,13 +750,13 @@ Text Label 7550 1850 2    50   ~ 0
 TARGET_RX
 Text Label 7550 1950 2    50   ~ 0
 TARGET_TX
-Text Label 7550 2050 2    50   ~ 0
+Text Label 9400 2050 2    50   ~ 0
 EN_PWR_5
-Text Label 7550 2150 2    50   ~ 0
+Text Label 9400 2150 2    50   ~ 0
 EN_ICSP_5
-Text Label 7550 2250 2    50   ~ 0
+Text Label 9400 2250 2    50   ~ 0
 EN_JTAG_5
-Text Label 7550 2350 2    50   ~ 0
+Text Label 9400 2350 2    50   ~ 0
 SPARE_5
 $Comp
 L power:GND #PWR06
@@ -945,13 +903,13 @@ Wire Wire Line
 Wire Wire Line
 	8950 1950 9400 1950
 Wire Wire Line
-	8950 2050 9400 2050
+	7100 2050 7550 2050
 Wire Wire Line
-	8950 2150 9400 2150
+	7100 2150 7550 2150
 Wire Wire Line
-	8950 2250 9400 2250
+	7100 2250 7550 2250
 Wire Wire Line
-	8950 2350 9400 2350
+	7100 2350 7550 2350
 Text Label 9400 1150 2    50   ~ 0
 TDI
 Text Label 9400 1250 2    50   ~ 0
@@ -970,13 +928,13 @@ Text Label 9400 1850 2    50   ~ 0
 TARGET_RX
 Text Label 9400 1950 2    50   ~ 0
 TARGET_TX
-Text Label 9400 2050 2    50   ~ 0
+Text Label 7550 2050 2    50   ~ 0
 EN_PWR_6
-Text Label 9400 2150 2    50   ~ 0
+Text Label 7550 2150 2    50   ~ 0
 EN_ICSP_6
-Text Label 9400 2250 2    50   ~ 0
+Text Label 7550 2250 2    50   ~ 0
 EN_JTAG_6
-Text Label 9400 2350 2    50   ~ 0
+Text Label 7550 2350 2    50   ~ 0
 SPARE_6
 Wire Notes Line
 	6750 550  9700 550 
@@ -996,7 +954,7 @@ $Comp
 L Kicad_Library:86093488314745V1LF U4
 U 1 1 61AFCF01
 P 10000 1600
-F 0 "U4" H 10058 2575 50  0000 C CNN
+F 0 "U4" H 10000 700 50  0000 C CNN
 F 1 "86093488314745V1LF" V 10000 1600 50  0000 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 10050 2350 50  0001 C CNN
 F 3 "" H 10050 2350 50  0001 C CNN
@@ -1004,13 +962,13 @@ F 4 "Amphenol ICC" H 10050 2650 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 10050 2850 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 10050 2750 50  0001 C CNN "Mouser"
 	1    10000 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U4
 U 2 1 61AFCF0A
 P 10900 1600
-F 0 "U4" H 10958 2483 50  0000 C CNN
+F 0 "U4" H 10900 700 50  0000 C CNN
 F 1 "86093488314745V1LF" H 10958 2484 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 10950 2350 50  0001 C CNN
 F 3 "" H 10950 2350 50  0001 C CNN
@@ -1018,13 +976,13 @@ F 4 "Amphenol ICC" H 10950 2650 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 10950 2850 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 10950 2750 50  0001 C CNN "Mouser"
 	2    10900 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U4
 U 3 1 61AFCF13
 P 11850 1600
-F 0 "U4" H 11908 2483 50  0000 C CNN
+F 0 "U4" H 11850 700 50  0000 C CNN
 F 1 "86093488314745V1LF" H 11908 2484 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 11900 2350 50  0001 C CNN
 F 3 "" H 11900 2350 50  0001 C CNN
@@ -1032,7 +990,7 @@ F 4 "Amphenol ICC" H 11900 2650 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 11900 2850 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 11900 2750 50  0001 C CNN "Mouser"
 	3    11850 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR012
@@ -1098,13 +1056,13 @@ Wire Wire Line
 Wire Wire Line
 	10150 1950 10600 1950
 Wire Wire Line
-	10150 2050 10600 2050
+	12000 2050 12450 2050
 Wire Wire Line
-	10150 2150 10600 2150
+	12000 2150 12450 2150
 Wire Wire Line
-	10150 2250 10600 2250
+	12000 2250 12450 2250
 Wire Wire Line
-	10150 2350 10600 2350
+	12000 2350 12450 2350
 Text Label 10600 1150 2    50   ~ 0
 TDI
 Text Label 10600 1250 2    50   ~ 0
@@ -1123,13 +1081,13 @@ Text Label 10600 1850 2    50   ~ 0
 TARGET_RX
 Text Label 10600 1950 2    50   ~ 0
 TARGET_TX
-Text Label 10600 2050 2    50   ~ 0
+Text Label 12450 2050 2    50   ~ 0
 EN_PWR_7
-Text Label 10600 2150 2    50   ~ 0
+Text Label 12450 2150 2    50   ~ 0
 EN_ICSP_7
-Text Label 10600 2250 2    50   ~ 0
+Text Label 12450 2250 2    50   ~ 0
 EN_JTAG_7
-Text Label 10600 2350 2    50   ~ 0
+Text Label 12450 2350 2    50   ~ 0
 SPARE_7
 $Comp
 L power:GND #PWR015
@@ -1276,13 +1234,13 @@ Wire Wire Line
 Wire Wire Line
 	12000 1950 12450 1950
 Wire Wire Line
-	12000 2050 12450 2050
+	10150 2050 10600 2050
 Wire Wire Line
-	12000 2150 12450 2150
+	10150 2150 10600 2150
 Wire Wire Line
-	12000 2250 12450 2250
+	10150 2250 10600 2250
 Wire Wire Line
-	12000 2350 12450 2350
+	10150 2350 10600 2350
 Text Label 12450 1150 2    50   ~ 0
 TDI
 Text Label 12450 1250 2    50   ~ 0
@@ -1301,13 +1259,13 @@ Text Label 12450 1850 2    50   ~ 0
 TARGET_RX
 Text Label 12450 1950 2    50   ~ 0
 TARGET_TX
-Text Label 12450 2050 2    50   ~ 0
+Text Label 10600 2050 2    50   ~ 0
 EN_PWR_8
-Text Label 12450 2150 2    50   ~ 0
+Text Label 10600 2150 2    50   ~ 0
 EN_ICSP_8
-Text Label 12450 2250 2    50   ~ 0
+Text Label 10600 2250 2    50   ~ 0
 EN_JTAG_8
-Text Label 12450 2350 2    50   ~ 0
+Text Label 10600 2350 2    50   ~ 0
 SPARE_8
 Wire Notes Line
 	9800 550  12750 550 
@@ -1323,7 +1281,7 @@ $Comp
 L Kicad_Library:86093488314745V1LF U5
 U 1 1 61B1E77B
 P 13050 1600
-F 0 "U5" H 13108 2575 50  0000 C CNN
+F 0 "U5" H 13050 700 50  0000 C CNN
 F 1 "86093488314745V1LF" V 13050 1600 50  0000 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 13100 2350 50  0001 C CNN
 F 3 "" H 13100 2350 50  0001 C CNN
@@ -1331,13 +1289,13 @@ F 4 "Amphenol ICC" H 13100 2650 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 13100 2850 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 13100 2750 50  0001 C CNN "Mouser"
 	1    13050 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U5
 U 2 1 61B1E784
 P 13950 1600
-F 0 "U5" H 14008 2483 50  0000 C CNN
+F 0 "U5" H 13950 700 50  0000 C CNN
 F 1 "86093488314745V1LF" H 14008 2484 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 14000 2350 50  0001 C CNN
 F 3 "" H 14000 2350 50  0001 C CNN
@@ -1345,13 +1303,13 @@ F 4 "Amphenol ICC" H 14000 2650 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 14000 2850 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 14000 2750 50  0001 C CNN "Mouser"
 	2    13950 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U5
 U 3 1 61B1E78D
 P 14900 1600
-F 0 "U5" H 14958 2483 50  0000 C CNN
+F 0 "U5" H 14900 700 50  0000 C CNN
 F 1 "86093488314745V1LF" H 14958 2484 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 14950 2350 50  0001 C CNN
 F 3 "" H 14950 2350 50  0001 C CNN
@@ -1359,7 +1317,7 @@ F 4 "Amphenol ICC" H 14950 2650 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 14950 2850 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 14950 2750 50  0001 C CNN "Mouser"
 	3    14900 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR021
@@ -1425,13 +1383,13 @@ Wire Wire Line
 Wire Wire Line
 	13200 1950 13650 1950
 Wire Wire Line
-	13200 2050 13650 2050
+	15050 2050 15500 2050
 Wire Wire Line
-	13200 2150 13650 2150
+	15050 2150 15500 2150
 Wire Wire Line
-	13200 2250 13650 2250
+	15050 2250 15500 2250
 Wire Wire Line
-	13200 2350 13650 2350
+	15050 2350 15500 2350
 Text Label 13650 1150 2    50   ~ 0
 TDI
 Text Label 13650 1250 2    50   ~ 0
@@ -1450,13 +1408,13 @@ Text Label 13650 1850 2    50   ~ 0
 TARGET_RX
 Text Label 13650 1950 2    50   ~ 0
 TARGET_TX
-Text Label 13650 2050 2    50   ~ 0
+Text Label 15500 2050 2    50   ~ 0
 EN_PWR_9
-Text Label 13650 2150 2    50   ~ 0
+Text Label 15500 2150 2    50   ~ 0
 EN_ICSP_9
-Text Label 13650 2250 2    50   ~ 0
+Text Label 15500 2250 2    50   ~ 0
 EN_JTAG_9
-Text Label 13650 2350 2    50   ~ 0
+Text Label 15500 2350 2    50   ~ 0
 SPARE_9
 $Comp
 L power:GND #PWR024
@@ -1603,13 +1561,13 @@ Wire Wire Line
 Wire Wire Line
 	15050 1950 15500 1950
 Wire Wire Line
-	15050 2050 15500 2050
+	13200 2050 13650 2050
 Wire Wire Line
-	15050 2150 15500 2150
+	13200 2150 13650 2150
 Wire Wire Line
-	15050 2250 15500 2250
+	13200 2250 13650 2250
 Wire Wire Line
-	15050 2350 15500 2350
+	13200 2350 13650 2350
 Text Label 15500 1150 2    50   ~ 0
 TDI
 Text Label 15500 1250 2    50   ~ 0
@@ -1628,13 +1586,13 @@ Text Label 15500 1850 2    50   ~ 0
 TARGET_RX
 Text Label 15500 1950 2    50   ~ 0
 TARGET_TX
-Text Label 15500 2050 2    50   ~ 0
+Text Label 13650 2050 2    50   ~ 0
 EN_PWR_10
-Text Label 15500 2150 2    50   ~ 0
+Text Label 13650 2150 2    50   ~ 0
 EN_ICSP_10
-Text Label 15500 2250 2    50   ~ 0
+Text Label 13650 2250 2    50   ~ 0
 EN_JTAG_10
-Text Label 15500 2350 2    50   ~ 0
+Text Label 13650 2350 2    50   ~ 0
 SPARE_10
 Wire Notes Line
 	12850 550  15800 550 
@@ -1650,7 +1608,7 @@ $Comp
 L Kicad_Library:86093488314745V1LF U6
 U 1 1 61B4E449
 P 16100 1600
-F 0 "U6" H 16158 2575 50  0000 C CNN
+F 0 "U6" H 16100 700 50  0000 C CNN
 F 1 "86093488314745V1LF" V 16100 1600 50  0000 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 16150 2350 50  0001 C CNN
 F 3 "" H 16150 2350 50  0001 C CNN
@@ -1658,13 +1616,13 @@ F 4 "Amphenol ICC" H 16150 2650 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 16150 2850 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 16150 2750 50  0001 C CNN "Mouser"
 	1    16100 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U6
 U 2 1 61B4E452
 P 17000 1600
-F 0 "U6" H 17058 2483 50  0000 C CNN
+F 0 "U6" H 17000 700 50  0000 C CNN
 F 1 "86093488314745V1LF" H 17058 2484 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 17050 2350 50  0001 C CNN
 F 3 "" H 17050 2350 50  0001 C CNN
@@ -1672,13 +1630,13 @@ F 4 "Amphenol ICC" H 17050 2650 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 17050 2850 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 17050 2750 50  0001 C CNN "Mouser"
 	2    17000 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U6
 U 3 1 61B4E45B
 P 17950 1600
-F 0 "U6" H 18008 2483 50  0000 C CNN
+F 0 "U6" H 17950 700 50  0000 C CNN
 F 1 "86093488314745V1LF" H 18008 2484 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 18000 2350 50  0001 C CNN
 F 3 "" H 18000 2350 50  0001 C CNN
@@ -1686,7 +1644,7 @@ F 4 "Amphenol ICC" H 18000 2650 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 18000 2850 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 18000 2750 50  0001 C CNN "Mouser"
 	3    17950 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR030
@@ -1752,13 +1710,13 @@ Wire Wire Line
 Wire Wire Line
 	16250 1950 16700 1950
 Wire Wire Line
-	16250 2050 16700 2050
+	18100 2050 18550 2050
 Wire Wire Line
-	16250 2150 16700 2150
+	18100 2150 18550 2150
 Wire Wire Line
-	16250 2250 16700 2250
+	18100 2250 18550 2250
 Wire Wire Line
-	16250 2350 16700 2350
+	18100 2350 18550 2350
 Text Label 16700 1150 2    50   ~ 0
 TDI
 Text Label 16700 1250 2    50   ~ 0
@@ -1777,13 +1735,13 @@ Text Label 16700 1850 2    50   ~ 0
 TARGET_RX
 Text Label 16700 1950 2    50   ~ 0
 TARGET_TX
-Text Label 16700 2050 2    50   ~ 0
+Text Label 18550 2050 2    50   ~ 0
 EN_PWR_11
-Text Label 16700 2150 2    50   ~ 0
+Text Label 18550 2150 2    50   ~ 0
 EN_ICSP_11
-Text Label 16700 2250 2    50   ~ 0
+Text Label 18550 2250 2    50   ~ 0
 EN_JTAG_11
-Text Label 16700 2350 2    50   ~ 0
+Text Label 18550 2350 2    50   ~ 0
 SPARE_11
 $Comp
 L power:GND #PWR033
@@ -1930,13 +1888,13 @@ Wire Wire Line
 Wire Wire Line
 	18100 1950 18550 1950
 Wire Wire Line
-	18100 2050 18550 2050
+	16250 2050 16700 2050
 Wire Wire Line
-	18100 2150 18550 2150
+	16250 2150 16700 2150
 Wire Wire Line
-	18100 2250 18550 2250
+	16250 2250 16700 2250
 Wire Wire Line
-	18100 2350 18550 2350
+	16250 2350 16700 2350
 Text Label 18550 1150 2    50   ~ 0
 TDI
 Text Label 18550 1250 2    50   ~ 0
@@ -1955,13 +1913,13 @@ Text Label 18550 1850 2    50   ~ 0
 TARGET_RX
 Text Label 18550 1950 2    50   ~ 0
 TARGET_TX
-Text Label 18550 2050 2    50   ~ 0
+Text Label 16700 2050 2    50   ~ 0
 EN_PWR_12
-Text Label 18550 2150 2    50   ~ 0
+Text Label 16700 2150 2    50   ~ 0
 EN_ICSP_12
-Text Label 18550 2250 2    50   ~ 0
+Text Label 16700 2250 2    50   ~ 0
 EN_JTAG_12
-Text Label 18550 2350 2    50   ~ 0
+Text Label 16700 2350 2    50   ~ 0
 SPARE_12
 Wire Notes Line
 	15900 550  18850 550 
@@ -1977,7 +1935,7 @@ $Comp
 L Kicad_Library:86093488314745V1LF U7
 U 1 1 61B776E0
 P 19150 1600
-F 0 "U7" H 19208 2575 50  0000 C CNN
+F 0 "U7" H 19150 700 50  0000 C CNN
 F 1 "86093488314745V1LF" V 19150 1600 50  0000 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 19200 2350 50  0001 C CNN
 F 3 "" H 19200 2350 50  0001 C CNN
@@ -1985,13 +1943,13 @@ F 4 "Amphenol ICC" H 19200 2650 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 19200 2850 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 19200 2750 50  0001 C CNN "Mouser"
 	1    19150 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U7
 U 2 1 61B776E9
 P 20050 1600
-F 0 "U7" H 20108 2483 50  0000 C CNN
+F 0 "U7" H 20050 700 50  0000 C CNN
 F 1 "86093488314745V1LF" H 20108 2484 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 20100 2350 50  0001 C CNN
 F 3 "" H 20100 2350 50  0001 C CNN
@@ -1999,13 +1957,13 @@ F 4 "Amphenol ICC" H 20100 2650 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 20100 2850 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 20100 2750 50  0001 C CNN "Mouser"
 	2    20050 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U7
 U 3 1 61B776F2
 P 21000 1600
-F 0 "U7" H 21058 2483 50  0000 C CNN
+F 0 "U7" H 21000 700 50  0000 C CNN
 F 1 "86093488314745V1LF" H 21058 2484 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 21050 2350 50  0001 C CNN
 F 3 "" H 21050 2350 50  0001 C CNN
@@ -2013,7 +1971,7 @@ F 4 "Amphenol ICC" H 21050 2650 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 21050 2850 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 21050 2750 50  0001 C CNN "Mouser"
 	3    21000 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR039
@@ -2079,13 +2037,13 @@ Wire Wire Line
 Wire Wire Line
 	19300 1950 19750 1950
 Wire Wire Line
-	19300 2050 19750 2050
+	21150 2050 21600 2050
 Wire Wire Line
-	19300 2150 19750 2150
+	21150 2150 21600 2150
 Wire Wire Line
-	19300 2250 19750 2250
+	21150 2250 21600 2250
 Wire Wire Line
-	19300 2350 19750 2350
+	21150 2350 21600 2350
 Text Label 19750 1150 2    50   ~ 0
 TDI
 Text Label 19750 1250 2    50   ~ 0
@@ -2104,13 +2062,13 @@ Text Label 19750 1850 2    50   ~ 0
 TARGET_RX
 Text Label 19750 1950 2    50   ~ 0
 TARGET_TX
-Text Label 19750 2050 2    50   ~ 0
+Text Label 21600 2050 2    50   ~ 0
 EN_PWR_13
-Text Label 19750 2150 2    50   ~ 0
+Text Label 21600 2150 2    50   ~ 0
 EN_ICSP_13
-Text Label 19750 2250 2    50   ~ 0
+Text Label 21600 2250 2    50   ~ 0
 EN_JTAG_13
-Text Label 19750 2350 2    50   ~ 0
+Text Label 21600 2350 2    50   ~ 0
 SPARE_13
 $Comp
 L power:GND #PWR042
@@ -2257,13 +2215,13 @@ Wire Wire Line
 Wire Wire Line
 	21150 1950 21600 1950
 Wire Wire Line
-	21150 2050 21600 2050
+	19300 2050 19750 2050
 Wire Wire Line
-	21150 2150 21600 2150
+	19300 2150 19750 2150
 Wire Wire Line
-	21150 2250 21600 2250
+	19300 2250 19750 2250
 Wire Wire Line
-	21150 2350 21600 2350
+	19300 2350 19750 2350
 Text Label 21600 1150 2    50   ~ 0
 TDI
 Text Label 21600 1250 2    50   ~ 0
@@ -2282,13 +2240,13 @@ Text Label 21600 1850 2    50   ~ 0
 TARGET_RX
 Text Label 21600 1950 2    50   ~ 0
 TARGET_TX
-Text Label 21600 2050 2    50   ~ 0
+Text Label 19750 2050 2    50   ~ 0
 EN_PWR_14
-Text Label 21600 2150 2    50   ~ 0
+Text Label 19750 2150 2    50   ~ 0
 EN_ICSP_14
-Text Label 21600 2250 2    50   ~ 0
+Text Label 19750 2250 2    50   ~ 0
 EN_JTAG_14
-Text Label 21600 2350 2    50   ~ 0
+Text Label 19750 2350 2    50   ~ 0
 SPARE_14
 Wire Notes Line
 	18950 550  21900 550 
@@ -2304,7 +2262,7 @@ $Comp
 L Kicad_Library:86093488314745V1LF U8
 U 1 1 61BE9B08
 P 850 3650
-F 0 "U8" H 908 4625 50  0000 C CNN
+F 0 "U8" H 850 2750 50  0000 C CNN
 F 1 "86093488314745V1LF" V 850 3650 50  0000 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 900 4400 50  0001 C CNN
 F 3 "" H 900 4400 50  0001 C CNN
@@ -2312,13 +2270,13 @@ F 4 "Amphenol ICC" H 900 4700 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 900 4900 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 900 4800 50  0001 C CNN "Mouser"
 	1    850  3650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U8
 U 2 1 61BE9B11
 P 1750 3650
-F 0 "U8" H 1808 4533 50  0000 C CNN
+F 0 "U8" H 1750 2750 50  0000 C CNN
 F 1 "86093488314745V1LF" H 1808 4534 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 1800 4400 50  0001 C CNN
 F 3 "" H 1800 4400 50  0001 C CNN
@@ -2326,13 +2284,13 @@ F 4 "Amphenol ICC" H 1800 4700 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 1800 4900 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 1800 4800 50  0001 C CNN "Mouser"
 	2    1750 3650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U8
 U 3 1 61BE9B1A
 P 2700 3650
-F 0 "U8" H 2758 4533 50  0000 C CNN
+F 0 "U8" H 2700 2750 50  0000 C CNN
 F 1 "86093488314745V1LF" H 2758 4534 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 2750 4400 50  0001 C CNN
 F 3 "" H 2750 4400 50  0001 C CNN
@@ -2340,7 +2298,7 @@ F 4 "Amphenol ICC" H 2750 4700 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 2750 4900 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 2750 4800 50  0001 C CNN "Mouser"
 	3    2700 3650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0119
@@ -2406,13 +2364,13 @@ Wire Wire Line
 Wire Wire Line
 	1000 4000 1450 4000
 Wire Wire Line
-	1000 4100 1450 4100
+	2850 4100 3300 4100
 Wire Wire Line
-	1000 4200 1450 4200
+	2850 4200 3300 4200
 Wire Wire Line
-	1000 4300 1450 4300
+	2850 4300 3300 4300
 Wire Wire Line
-	1000 4400 1450 4400
+	2850 4400 3300 4400
 Text Label 1450 3200 2    50   ~ 0
 TDI
 Text Label 1450 3300 2    50   ~ 0
@@ -2431,13 +2389,13 @@ Text Label 1450 3900 2    50   ~ 0
 TARGET_RX
 Text Label 1450 4000 2    50   ~ 0
 TARGET_TX
-Text Label 1450 4100 2    50   ~ 0
+Text Label 3300 4100 2    50   ~ 0
 EN_PWR_15
-Text Label 1450 4200 2    50   ~ 0
+Text Label 3300 4200 2    50   ~ 0
 EN_ICSP_15
-Text Label 1450 4300 2    50   ~ 0
+Text Label 3300 4300 2    50   ~ 0
 EN_JTAG_15
-Text Label 1450 4400 2    50   ~ 0
+Text Label 3300 4400 2    50   ~ 0
 SPARE_15
 $Comp
 L power:GND #PWR0122
@@ -2584,13 +2542,13 @@ Wire Wire Line
 Wire Wire Line
 	2850 4000 3300 4000
 Wire Wire Line
-	2850 4100 3300 4100
+	1000 4100 1450 4100
 Wire Wire Line
-	2850 4200 3300 4200
+	1000 4200 1450 4200
 Wire Wire Line
-	2850 4300 3300 4300
+	1000 4300 1450 4300
 Wire Wire Line
-	2850 4400 3300 4400
+	1000 4400 1450 4400
 Text Label 3300 3200 2    50   ~ 0
 TDI
 Text Label 3300 3300 2    50   ~ 0
@@ -2609,13 +2567,13 @@ Text Label 3300 3900 2    50   ~ 0
 TARGET_RX
 Text Label 3300 4000 2    50   ~ 0
 TARGET_TX
-Text Label 3300 4100 2    50   ~ 0
+Text Label 1450 4100 2    50   ~ 0
 EN_PWR_16
-Text Label 3300 4200 2    50   ~ 0
+Text Label 1450 4200 2    50   ~ 0
 EN_ICSP_16
-Text Label 3300 4300 2    50   ~ 0
+Text Label 1450 4300 2    50   ~ 0
 EN_JTAG_16
-Text Label 3300 4400 2    50   ~ 0
+Text Label 1450 4400 2    50   ~ 0
 SPARE_16
 Wire Notes Line
 	650  2600 3600 2600
@@ -2631,7 +2589,7 @@ $Comp
 L Kicad_Library:86093488314745V1LF U9
 U 1 1 61C4779D
 P 3900 3650
-F 0 "U9" H 3958 4625 50  0000 C CNN
+F 0 "U9" H 3900 2750 50  0000 C CNN
 F 1 "86093488314745V1LF" V 3900 3650 50  0000 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 3950 4400 50  0001 C CNN
 F 3 "" H 3950 4400 50  0001 C CNN
@@ -2639,13 +2597,13 @@ F 4 "Amphenol ICC" H 3950 4700 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 3950 4900 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 3950 4800 50  0001 C CNN "Mouser"
 	1    3900 3650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U9
 U 2 1 61C477A6
 P 4800 3650
-F 0 "U9" H 4858 4533 50  0000 C CNN
+F 0 "U9" H 4800 2750 50  0000 C CNN
 F 1 "86093488314745V1LF" H 4858 4534 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 4850 4400 50  0001 C CNN
 F 3 "" H 4850 4400 50  0001 C CNN
@@ -2653,13 +2611,13 @@ F 4 "Amphenol ICC" H 4850 4700 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 4850 4900 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 4850 4800 50  0001 C CNN "Mouser"
 	2    4800 3650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U9
 U 3 1 61C477AF
 P 5750 3650
-F 0 "U9" H 5808 4533 50  0000 C CNN
+F 0 "U9" H 5750 2750 50  0000 C CNN
 F 1 "86093488314745V1LF" H 5808 4534 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 5800 4400 50  0001 C CNN
 F 3 "" H 5800 4400 50  0001 C CNN
@@ -2667,7 +2625,7 @@ F 4 "Amphenol ICC" H 5800 4700 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 5800 4900 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 5800 4800 50  0001 C CNN "Mouser"
 	3    5750 3650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0128
@@ -2733,13 +2691,13 @@ Wire Wire Line
 Wire Wire Line
 	4050 4000 4500 4000
 Wire Wire Line
-	4050 4100 4500 4100
+	5900 4100 6350 4100
 Wire Wire Line
-	4050 4200 4500 4200
+	5900 4200 6350 4200
 Wire Wire Line
-	4050 4300 4500 4300
+	5900 4300 6350 4300
 Wire Wire Line
-	4050 4400 4500 4400
+	5900 4400 6350 4400
 Text Label 4500 3200 2    50   ~ 0
 TDI
 Text Label 4500 3300 2    50   ~ 0
@@ -2758,13 +2716,13 @@ Text Label 4500 3900 2    50   ~ 0
 TARGET_RX
 Text Label 4500 4000 2    50   ~ 0
 TARGET_TX
-Text Label 4500 4100 2    50   ~ 0
+Text Label 6350 4100 2    50   ~ 0
 EN_PWR_17
-Text Label 4500 4200 2    50   ~ 0
+Text Label 6350 4200 2    50   ~ 0
 EN_ICSP_17
-Text Label 4500 4300 2    50   ~ 0
+Text Label 6350 4300 2    50   ~ 0
 EN_JTAG_17
-Text Label 4500 4400 2    50   ~ 0
+Text Label 6350 4400 2    50   ~ 0
 SPARE_17
 $Comp
 L power:GND #PWR0131
@@ -2911,13 +2869,13 @@ Wire Wire Line
 Wire Wire Line
 	5900 4000 6350 4000
 Wire Wire Line
-	5900 4100 6350 4100
+	4050 4100 4500 4100
 Wire Wire Line
-	5900 4200 6350 4200
+	4050 4200 4500 4200
 Wire Wire Line
-	5900 4300 6350 4300
+	4050 4300 4500 4300
 Wire Wire Line
-	5900 4400 6350 4400
+	4050 4400 4500 4400
 Text Label 6350 3200 2    50   ~ 0
 TDI
 Text Label 6350 3300 2    50   ~ 0
@@ -2936,13 +2894,13 @@ Text Label 6350 3900 2    50   ~ 0
 TARGET_RX
 Text Label 6350 4000 2    50   ~ 0
 TARGET_TX
-Text Label 6350 4100 2    50   ~ 0
+Text Label 4500 4100 2    50   ~ 0
 EN_PWR_18
-Text Label 6350 4200 2    50   ~ 0
+Text Label 4500 4200 2    50   ~ 0
 EN_ICSP_18
-Text Label 6350 4300 2    50   ~ 0
+Text Label 4500 4300 2    50   ~ 0
 EN_JTAG_18
-Text Label 6350 4400 2    50   ~ 0
+Text Label 4500 4400 2    50   ~ 0
 SPARE_18
 Wire Notes Line
 	3700 2600 6650 2600
@@ -2958,7 +2916,7 @@ $Comp
 L Kicad_Library:86093488314745V1LF U10
 U 1 1 61CC2533
 P 6950 3650
-F 0 "U10" H 7008 4625 50  0000 C CNN
+F 0 "U10" H 6950 2750 50  0000 C CNN
 F 1 "86093488314745V1LF" V 6950 3650 50  0000 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 7000 4400 50  0001 C CNN
 F 3 "" H 7000 4400 50  0001 C CNN
@@ -2966,13 +2924,13 @@ F 4 "Amphenol ICC" H 7000 4700 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 7000 4900 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 7000 4800 50  0001 C CNN "Mouser"
 	1    6950 3650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U10
 U 2 1 61CC253C
 P 7850 3650
-F 0 "U10" H 7908 4533 50  0000 C CNN
+F 0 "U10" H 7850 2750 50  0000 C CNN
 F 1 "86093488314745V1LF" H 7908 4534 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 7900 4400 50  0001 C CNN
 F 3 "" H 7900 4400 50  0001 C CNN
@@ -2980,13 +2938,13 @@ F 4 "Amphenol ICC" H 7900 4700 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 7900 4900 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 7900 4800 50  0001 C CNN "Mouser"
 	2    7850 3650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U10
 U 3 1 61CC2545
 P 8800 3650
-F 0 "U10" H 8858 4533 50  0000 C CNN
+F 0 "U10" H 8800 2750 50  0000 C CNN
 F 1 "86093488314745V1LF" H 8858 4534 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 8850 4400 50  0001 C CNN
 F 3 "" H 8850 4400 50  0001 C CNN
@@ -2994,7 +2952,7 @@ F 4 "Amphenol ICC" H 8850 4700 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 8850 4900 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 8850 4800 50  0001 C CNN "Mouser"
 	3    8800 3650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0137
@@ -3060,13 +3018,13 @@ Wire Wire Line
 Wire Wire Line
 	7100 4000 7550 4000
 Wire Wire Line
-	7100 4100 7550 4100
+	8950 4100 9400 4100
 Wire Wire Line
-	7100 4200 7550 4200
+	8950 4200 9400 4200
 Wire Wire Line
-	7100 4300 7550 4300
+	8950 4300 9400 4300
 Wire Wire Line
-	7100 4400 7550 4400
+	8950 4400 9400 4400
 Text Label 7550 3200 2    50   ~ 0
 TDI
 Text Label 7550 3300 2    50   ~ 0
@@ -3085,13 +3043,13 @@ Text Label 7550 3900 2    50   ~ 0
 TARGET_RX
 Text Label 7550 4000 2    50   ~ 0
 TARGET_TX
-Text Label 7550 4100 2    50   ~ 0
+Text Label 9400 4100 2    50   ~ 0
 EN_PWR_19
-Text Label 7550 4200 2    50   ~ 0
+Text Label 9400 4200 2    50   ~ 0
 EN_ICSP_19
-Text Label 7550 4300 2    50   ~ 0
+Text Label 9400 4300 2    50   ~ 0
 EN_JTAG_19
-Text Label 7550 4400 2    50   ~ 0
+Text Label 9400 4400 2    50   ~ 0
 SPARE_19
 $Comp
 L power:GND #PWR0140
@@ -3238,13 +3196,13 @@ Wire Wire Line
 Wire Wire Line
 	8950 4000 9400 4000
 Wire Wire Line
-	8950 4100 9400 4100
+	7100 4100 7550 4100
 Wire Wire Line
-	8950 4200 9400 4200
+	7100 4200 7550 4200
 Wire Wire Line
-	8950 4300 9400 4300
+	7100 4300 7550 4300
 Wire Wire Line
-	8950 4400 9400 4400
+	7100 4400 7550 4400
 Text Label 9400 3200 2    50   ~ 0
 TDI
 Text Label 9400 3300 2    50   ~ 0
@@ -3263,13 +3221,13 @@ Text Label 9400 3900 2    50   ~ 0
 TARGET_RX
 Text Label 9400 4000 2    50   ~ 0
 TARGET_TX
-Text Label 9400 4100 2    50   ~ 0
+Text Label 7550 4100 2    50   ~ 0
 EN_PWR_20
-Text Label 9400 4200 2    50   ~ 0
+Text Label 7550 4200 2    50   ~ 0
 EN_ICSP_20
-Text Label 9400 4300 2    50   ~ 0
+Text Label 7550 4300 2    50   ~ 0
 EN_JTAG_20
-Text Label 9400 4400 2    50   ~ 0
+Text Label 7550 4400 2    50   ~ 0
 SPARE_20
 Wire Notes Line
 	6750 2600 9700 2600
@@ -3285,7 +3243,7 @@ $Comp
 L Kicad_Library:86093488314745V1LF U11
 U 1 1 61D3DBF3
 P 10000 3650
-F 0 "U11" H 10058 4625 50  0000 C CNN
+F 0 "U11" H 10000 2750 50  0000 C CNN
 F 1 "86093488314745V1LF" V 10000 3650 50  0000 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 10050 4400 50  0001 C CNN
 F 3 "" H 10050 4400 50  0001 C CNN
@@ -3293,13 +3251,13 @@ F 4 "Amphenol ICC" H 10050 4700 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 10050 4900 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 10050 4800 50  0001 C CNN "Mouser"
 	1    10000 3650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U11
 U 2 1 61D3DBFC
 P 10900 3650
-F 0 "U11" H 10958 4533 50  0000 C CNN
+F 0 "U11" H 10900 2750 50  0000 C CNN
 F 1 "86093488314745V1LF" H 10958 4534 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 10950 4400 50  0001 C CNN
 F 3 "" H 10950 4400 50  0001 C CNN
@@ -3307,13 +3265,13 @@ F 4 "Amphenol ICC" H 10950 4700 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 10950 4900 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 10950 4800 50  0001 C CNN "Mouser"
 	2    10900 3650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U11
 U 3 1 61D3DC05
 P 11850 3650
-F 0 "U11" H 11908 4533 50  0000 C CNN
+F 0 "U11" H 11850 2750 50  0000 C CNN
 F 1 "86093488314745V1LF" H 11908 4534 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 11900 4400 50  0001 C CNN
 F 3 "" H 11900 4400 50  0001 C CNN
@@ -3321,7 +3279,7 @@ F 4 "Amphenol ICC" H 11900 4700 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 11900 4900 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 11900 4800 50  0001 C CNN "Mouser"
 	3    11850 3650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0146
@@ -3387,13 +3345,13 @@ Wire Wire Line
 Wire Wire Line
 	10150 4000 10600 4000
 Wire Wire Line
-	10150 4100 10600 4100
+	12000 4100 12450 4100
 Wire Wire Line
-	10150 4200 10600 4200
+	12000 4200 12450 4200
 Wire Wire Line
-	10150 4300 10600 4300
+	12000 4300 12450 4300
 Wire Wire Line
-	10150 4400 10600 4400
+	12000 4400 12450 4400
 Text Label 10600 3200 2    50   ~ 0
 TDI
 Text Label 10600 3300 2    50   ~ 0
@@ -3412,13 +3370,13 @@ Text Label 10600 3900 2    50   ~ 0
 TARGET_RX
 Text Label 10600 4000 2    50   ~ 0
 TARGET_TX
-Text Label 10600 4100 2    50   ~ 0
+Text Label 12450 4100 2    50   ~ 0
 EN_PWR_21
-Text Label 10600 4200 2    50   ~ 0
+Text Label 12450 4200 2    50   ~ 0
 EN_ICSP_21
-Text Label 10600 4300 2    50   ~ 0
+Text Label 12450 4300 2    50   ~ 0
 EN_JTAG_21
-Text Label 10600 4400 2    50   ~ 0
+Text Label 12450 4400 2    50   ~ 0
 SPARE_21
 $Comp
 L power:GND #PWR0149
@@ -3565,13 +3523,13 @@ Wire Wire Line
 Wire Wire Line
 	12000 4000 12450 4000
 Wire Wire Line
-	12000 4100 12450 4100
+	10150 4100 10600 4100
 Wire Wire Line
-	12000 4200 12450 4200
+	10150 4200 10600 4200
 Wire Wire Line
-	12000 4300 12450 4300
+	10150 4300 10600 4300
 Wire Wire Line
-	12000 4400 12450 4400
+	10150 4400 10600 4400
 Text Label 12450 3200 2    50   ~ 0
 TDI
 Text Label 12450 3300 2    50   ~ 0
@@ -3590,13 +3548,13 @@ Text Label 12450 3900 2    50   ~ 0
 TARGET_RX
 Text Label 12450 4000 2    50   ~ 0
 TARGET_TX
-Text Label 12450 4100 2    50   ~ 0
+Text Label 10600 4100 2    50   ~ 0
 EN_PWR_22
-Text Label 12450 4200 2    50   ~ 0
+Text Label 10600 4200 2    50   ~ 0
 EN_ICSP_22
-Text Label 12450 4300 2    50   ~ 0
+Text Label 10600 4300 2    50   ~ 0
 EN_JTAG_22
-Text Label 12450 4400 2    50   ~ 0
+Text Label 10600 4400 2    50   ~ 0
 SPARE_22
 Wire Notes Line
 	9800 2600 12750 2600
@@ -3612,7 +3570,7 @@ $Comp
 L Kicad_Library:86093488314745V1LF U12
 U 1 1 61E63F99
 P 13050 3650
-F 0 "U12" H 13108 4625 50  0000 C CNN
+F 0 "U12" H 13050 2750 50  0000 C CNN
 F 1 "86093488314745V1LF" V 13050 3650 50  0000 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 13100 4400 50  0001 C CNN
 F 3 "" H 13100 4400 50  0001 C CNN
@@ -3620,13 +3578,13 @@ F 4 "Amphenol ICC" H 13100 4700 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 13100 4900 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 13100 4800 50  0001 C CNN "Mouser"
 	1    13050 3650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U12
 U 2 1 61E63FA2
 P 13950 3650
-F 0 "U12" H 14008 4533 50  0000 C CNN
+F 0 "U12" H 13950 2750 50  0000 C CNN
 F 1 "86093488314745V1LF" H 14008 4534 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 14000 4400 50  0001 C CNN
 F 3 "" H 14000 4400 50  0001 C CNN
@@ -3634,13 +3592,13 @@ F 4 "Amphenol ICC" H 14000 4700 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 14000 4900 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 14000 4800 50  0001 C CNN "Mouser"
 	2    13950 3650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Kicad_Library:86093488314745V1LF U12
 U 3 1 61E63FAB
 P 14900 3650
-F 0 "U12" H 14958 4533 50  0000 C CNN
+F 0 "U12" H 14900 2750 50  0000 C CNN
 F 1 "86093488314745V1LF" H 14958 4534 50  0001 C CNN
 F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 14950 4400 50  0001 C CNN
 F 3 "" H 14950 4400 50  0001 C CNN
@@ -3648,7 +3606,7 @@ F 4 "Amphenol ICC" H 14950 4700 50  0001 C CNN "Manufacturer"
 F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 14950 4900 50  0001 C CNN "Link"
 F 6 "649-869348314745V1LF" H 14950 4800 50  0001 C CNN "Mouser"
 	3    14900 3650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR048
@@ -3714,13 +3672,13 @@ Wire Wire Line
 Wire Wire Line
 	13200 4000 13650 4000
 Wire Wire Line
-	13200 4100 13650 4100
+	15050 4100 15500 4100
 Wire Wire Line
-	13200 4200 13650 4200
+	15050 4200 15500 4200
 Wire Wire Line
-	13200 4300 13650 4300
+	15050 4300 15500 4300
 Wire Wire Line
-	13200 4400 13650 4400
+	15050 4400 15500 4400
 Text Label 13650 3200 2    50   ~ 0
 TDI
 Text Label 13650 3300 2    50   ~ 0
@@ -3739,13 +3697,13 @@ Text Label 13650 3900 2    50   ~ 0
 TARGET_RX
 Text Label 13650 4000 2    50   ~ 0
 TARGET_TX
-Text Label 13650 4100 2    50   ~ 0
+Text Label 15500 4100 2    50   ~ 0
 EN_PWR_23
-Text Label 13650 4200 2    50   ~ 0
+Text Label 15500 4200 2    50   ~ 0
 EN_ICSP_23
-Text Label 13650 4300 2    50   ~ 0
+Text Label 15500 4300 2    50   ~ 0
 EN_JTAG_23
-Text Label 13650 4400 2    50   ~ 0
+Text Label 15500 4400 2    50   ~ 0
 SPARE_23
 $Comp
 L power:GND #PWR051
@@ -3892,13 +3850,13 @@ Wire Wire Line
 Wire Wire Line
 	15050 4000 15500 4000
 Wire Wire Line
-	15050 4100 15500 4100
+	13200 4100 13650 4100
 Wire Wire Line
-	15050 4200 15500 4200
+	13200 4200 13650 4200
 Wire Wire Line
-	15050 4300 15500 4300
+	13200 4300 13650 4300
 Wire Wire Line
-	15050 4400 15500 4400
+	13200 4400 13650 4400
 Text Label 15500 3200 2    50   ~ 0
 TDI
 Text Label 15500 3300 2    50   ~ 0
@@ -3917,13 +3875,13 @@ Text Label 15500 3900 2    50   ~ 0
 TARGET_RX
 Text Label 15500 4000 2    50   ~ 0
 TARGET_TX
-Text Label 15500 4100 2    50   ~ 0
+Text Label 13650 4100 2    50   ~ 0
 EN_PWR_24
-Text Label 15500 4200 2    50   ~ 0
+Text Label 13650 4200 2    50   ~ 0
 EN_ICSP_24
-Text Label 15500 4300 2    50   ~ 0
+Text Label 13650 4300 2    50   ~ 0
 EN_JTAG_24
-Text Label 15500 4400 2    50   ~ 0
+Text Label 13650 4400 2    50   ~ 0
 SPARE_24
 Wire Notes Line
 	12850 2600 15800 2600
@@ -6319,7 +6277,7 @@ Wire Notes Line
 	15900 6600 15900 4650
 Wire Notes Line
 	18850 6600 15900 6600
-Text Label 1450 2350 2    50   ~ 0
+Text Label 3300 2350 2    50   ~ 0
 SPARE_1
 $Comp
 L 74xx:74HC595 U21
@@ -9326,4 +9284,183 @@ Text Label 800  8200 0    50   ~ 0
 ~MASTER_RST~
 Text Label 800  8300 0    50   ~ 0
 SHIFT_CLK_IN
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61D0C872
+P 900 13600
+F 0 "H1" H 1000 13646 50  0000 L CNN
+F 1 "MountingHole" H 1000 13555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 900 13600 50  0001 C CNN
+F 3 "~" H 900 13600 50  0001 C CNN
+	1    900  13600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61D22746
+P 2500 13600
+F 0 "H3" H 2600 13646 50  0000 L CNN
+F 1 "MountingHole" H 2600 13555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2500 13600 50  0001 C CNN
+F 3 "~" H 2500 13600 50  0001 C CNN
+	1    2500 13600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 61FDFD21
+P 1700 13900
+F 0 "H5" H 1800 13946 50  0000 L CNN
+F 1 "MountingHole" H 1800 13855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1700 13900 50  0001 C CNN
+F 3 "~" H 1700 13900 50  0001 C CNN
+	1    1700 13900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6229D342
+P 1700 13600
+F 0 "H2" H 1800 13646 50  0000 L CNN
+F 1 "MountingHole" H 1800 13555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1700 13600 50  0001 C CNN
+F 3 "~" H 1700 13600 50  0001 C CNN
+	1    1700 13600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 6255A85A
+P 900 13900
+F 0 "H4" H 1000 13946 50  0000 L CNN
+F 1 "MountingHole" H 1000 13855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 900 13900 50  0001 C CNN
+F 3 "~" H 900 13900 50  0001 C CNN
+	1    900  13900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 62817E10
+P 2500 13900
+F 0 "H6" H 2600 13946 50  0000 L CNN
+F 1 "MountingHole" H 2600 13855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2500 13900 50  0001 C CNN
+F 3 "~" H 2500 13900 50  0001 C CNN
+	1    2500 13900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 62AD91EE
+P 900 14200
+F 0 "H7" H 1000 14246 50  0000 L CNN
+F 1 "MountingHole" H 1000 14155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 900 14200 50  0001 C CNN
+F 3 "~" H 900 14200 50  0001 C CNN
+	1    900  14200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 62AD95D2
+P 1700 14200
+F 0 "H8" H 1800 14246 50  0000 L CNN
+F 1 "MountingHole" H 1800 14155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1700 14200 50  0001 C CNN
+F 3 "~" H 1700 14200 50  0001 C CNN
+	1    1700 14200
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	650  13300 3600 13300
+Wire Notes Line
+	3600 13300 3600 14500
+Wire Notes Line
+	3600 14500 650  14500
+Wire Notes Line
+	650  14500 650  13300
+Wire Notes Line
+	3700 13300 6600 13300
+Wire Notes Line
+	6600 13300 6600 14500
+Wire Notes Line
+	6600 14500 3700 14500
+Wire Notes Line
+	3700 14500 3700 13300
+$Comp
+L Kicad_Library:LOGO MARK1
+U 1 1 63062B53
+P 3950 13550
+F 0 "MARK1" H 4078 13596 50  0000 L CNN
+F 1 "LOGO" H 4078 13505 50  0000 L CNN
+F 2 "Kicad_Library:FOX_LOGO_COPPER" H 3950 13550 50  0001 C CNN
+F 3 "" H 3950 13550 50  0001 C CNN
+	1    3950 13550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_Library:LOGO MARK2
+U 1 1 63063064
+P 3950 13900
+F 0 "MARK2" H 4078 13946 50  0000 L CNN
+F 1 "LOGO" H 4078 13855 50  0000 L CNN
+F 2 "Kicad_Library:FOX_LOGO_MASK" H 3950 13900 50  0001 C CNN
+F 3 "" H 3950 13900 50  0001 C CNN
+	1    3950 13900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_Library:LOGO MARK3
+U 1 1 63063712
+P 3950 14250
+F 0 "MARK3" H 4078 14296 50  0000 L CNN
+F 1 "LOGO" H 4078 14205 50  0000 L CNN
+F 2 "Kicad_Library:FOX_LOGO_SILK" H 3950 14250 50  0001 C CNN
+F 3 "" H 3950 14250 50  0001 C CNN
+	1    3950 14250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_Library:86093488314745V1LF U1
+U 3 1 61A4298B
+P 2700 1600
+F 0 "U1" H 2700 700 50  0000 C CNN
+F 1 "86093488314745V1LF" H 2758 2484 50  0001 C CNN
+F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 2750 2350 50  0001 C CNN
+F 3 "" H 2750 2350 50  0001 C CNN
+F 4 "Amphenol ICC" H 2750 2650 50  0001 C CNN "Manufacturer"
+F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 2750 2850 50  0001 C CNN "Link"
+F 6 "649-869348314745V1LF" H 2750 2750 50  0001 C CNN "Mouser"
+	3    2700 1600
+	1    0    0    1   
+$EndComp
+$Comp
+L Kicad_Library:86093488314745V1LF U1
+U 2 1 61A407BE
+P 1750 1600
+F 0 "U1" H 1750 700 50  0000 C CNN
+F 1 "86093488314745V1LF" H 1808 2484 50  0001 C CNN
+F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 1800 2350 50  0001 C CNN
+F 3 "" H 1800 2350 50  0001 C CNN
+F 4 "Amphenol ICC" H 1800 2650 50  0001 C CNN "Manufacturer"
+F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 1800 2850 50  0001 C CNN "Link"
+F 6 "649-869348314745V1LF" H 1800 2750 50  0001 C CNN "Mouser"
+	2    1750 1600
+	1    0    0    1   
+$EndComp
+$Comp
+L Kicad_Library:86093488314745V1LF U1
+U 1 1 61A3E915
+P 850 1600
+F 0 "U1" H 850 700 50  0000 C CNN
+F 1 "86093488314745V1LF" V 850 1600 50  0000 C CNN
+F 2 "Kicad_Library:DIN41612_C2_3x16_Female_Vertical_THT" H 900 2350 50  0001 C CNN
+F 3 "" H 900 2350 50  0001 C CNN
+F 4 "Amphenol ICC" H 900 2650 50  0001 C CNN "Manufacturer"
+F 5 "https://www.amphenol-icc.com/din-41612-86093488314745v1lf.html" H 900 2850 50  0001 C CNN "Link"
+F 6 "649-869348314745V1LF" H 900 2750 50  0001 C CNN "Mouser"
+	1    850  1600
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
