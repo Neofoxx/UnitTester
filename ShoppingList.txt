@@ -1,0 +1,43 @@
+- PIC12F615, HV verzija (vsaj 8, SOIC)
+- Refill kondenzatorjev
+
+* PIC32MX274F256D (PIC32MX275F256D is not available (with VBAT), MX175 ditto)
+
+* = variants with USB
++ = variants with CAN
+Support list
+* PIC32MM GPL - done
+
+* PIC32MM GPM - done
+
+* PIC32MX 1/2*/5+
+-> PIC32MX 1/2 should be done
+-> PIC32MX 5 should be done, was tested with a little gumstix board from mikroelektronika
+
+* PIC32MX 1/2* XLP - NOT DONE, NOT TESTED
+
+* PIC32MX 3/4*
+- Should be done, but there are some differences between say 340 and 350.
+- Warrants another look
+
+* PIC32MX 5x/6*/7+ (yo wtf) - shold be done
+- Series 6&7 weren't tested, 5 should be in the above
+
+* PIC32MK GP/MC
+- Work continuing on it. There are differences in chips, but the peripherals are the same
+- Differences are dual-banks of flash for example.
+
+* PIC32MZ EF
+- Should be working
+
+* PIC32MZ DA
+- Never tried, TODO
+
+* PIC32MZ EC
+- The abandoned platform. Purely out fo jest we should support it
+
+* PIC32W (EZ in disguise)
+- Should make compile just because.
+
+Needed chips are then
+MX5, MX6, MX7, MX1/2 XLP, MK?, MZ DA, MZ EC, MZ W.
