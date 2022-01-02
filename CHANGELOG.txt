@@ -1,0 +1,3 @@
+Rev1 notes:
+- Backplane, MASTER_CLR should have a pull-up
+- RiserCard, Power LED should be powered from VCC/VDD, nor +3v3. Other from +3v3.
