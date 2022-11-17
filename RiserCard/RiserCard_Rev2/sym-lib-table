@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "RiserCard-rescue")(type "Legacy")(uri "${KIPRJMOD}/RiserCard-rescue.lib")(options "")(descr ""))
+)
